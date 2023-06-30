@@ -1,0 +1,11 @@
+param favorite_colors default [
+  "blue", 
+  "green", 
+  "yellow",
+]
+
+print(favorite_colors)
+
+main = rule {
+  true
+}
